@@ -1,59 +1,38 @@
 # SQL Retail Database Analysis
 
-## Project Overview
+## About This Project
 
-This project focuses on designing and analyzing a relational database for a retail business. The database was structured to organize customer, product, order, and transaction information while maintaining data accuracy and consistency.
+I completed this project for CS 650: Advanced Databases at Old Dominion University. The project focused on designing a relational database for retail transaction data and using SQL to retrieve, organize, and analyze information stored across multiple tables.
 
-This project was completed as part of my graduate coursework in Computer Science at Old Dominion University.
+The database included customers, products, orders, order items, and address information.
 
-## Tools & Technologies
+## Tools I Used
 
 - SQL
 - SQLite
-- Relational Databases
 - Google Colab
 - Jupyter Notebook
 
-## Database Design
+## What I Did
 
-The database includes related tables for:
+I designed the database structure and created relationships between the different tables using primary and foreign keys.
 
-- Customers
-- Products
-- Orders
-- Order Items
-- Addresses
+I then used SQL to work with and analyze the data. Some of the work included:
 
-Primary keys, foreign keys, and data constraints were used to establish relationships between tables and maintain data integrity.
-
-## Analysis Performed
-
-The project included:
-
-- Creating and structuring relational database tables
-- Writing SQL queries to retrieve and analyze data
-- Using JOIN operations to combine information across multiple tables
+- Creating tables and defining relationships
+- Using primary keys and foreign keys
+- Adding constraints to help maintain data accuracy
+- Writing SQL queries to retrieve information
+- Using JOINs to combine data from multiple tables
 - Using aggregate functions to summarize transaction data
-- Identifying customer purchasing and spending patterns
-- Applying data validation and integrity constraints
-- Normalizing the database through Third Normal Form (3NF)
-- Creating indexes to improve query performance
-- Using EXPLAIN QUERY PLAN to evaluate query execution before and after indexing
+- Analyzing customer purchasing and spending information
+- Checking data for accuracy and consistency
+- Applying database normalization through Third Normal Form (3NF)
+- Creating an index to improve query performance
+- Using EXPLAIN QUERY PLAN to compare query behavior before and after indexing
 
-## Skills Demonstrated
+## What I Learned
 
-- SQL
-- Relational Database Design
-- Data Analysis
-- Data Validation
-- Data Quality
-- JOINs and Aggregations
-- Database Normalization
-- Query Optimization
-- Analytical Problem Solving
+This project helped me understand how relational databases are structured beyond just writing individual SQL queries. I became more comfortable working with relationships between tables and using JOINs and aggregate functions to answer questions using data from different parts of a database.
 
-## Author
-
-Necey Kpakio  
-M.S. Computer Science  
-Old Dominion University
+I also learned why normalization, constraints, and indexes matter. Using EXPLAIN QUERY PLAN gave me a better understanding of what happens behind a SQL query and how database design can affect performance.
